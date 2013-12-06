@@ -1,0 +1,108 @@
+/**
+ * Parallax Scrolling Tutorial
+ * For NetTuts+
+ *  
+ * Author: Mohiuddin Parekh
+ *	http://www.mohi.me
+ * 	@mohiuddinparekh   
+ */
+
+
+body{
+	margin:0;
+	padding:0;
+}
+
+
+#home { 
+	background: url(../images/3.jpg) 50% 0 no-repeat fixed; 
+	height: 800px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1500px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#package { 
+	background-color: #7699bf;
+	height: 500px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1500px; 
+    position: relative; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+#agenda { 
+	background-color: #fa900e;
+	height: 500px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1500px; 
+    position: relative; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+#vendor { 
+	background-color: #00a651;
+	height: 600px;
+	margin: 0 auto; 
+    width: 100%; 
+    width: 1500px; 
+    position: relative; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+#location { 
+	background-color: #7699bf;
+	height: 600px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1500PX; 
+    position: relative; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+#about { 
+	background-color: #f06eaa;
+	height: 600px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1500px; 
+    position: relative; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+#logo { 
+	background-color: #000000;
+	height: 300px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1500px; 
+    position: relative; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+p.spin {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	font-size: 2em; 
+	color: #ffffff; 
+	position:absolute;
+	margin-left:200px; 
+	width:100%;
+	color: #ffcc33;
+}
+/* Introduction */
+
+#home article { background: url("../images/tittle.png") no-repeat scroll transparent; height: 458px; position: absolute; text-indent: -9999px; top: 80px; left: 50px; width: 100%;}
+.ticket {position:absolute; top:420px; left: 50px; width:100%;}
+#home ticket {text-align: center; font-family:Arial, Helvetica, sans-serif; font-weight: bold; font-size: 6em; color: #ffffff; position:absolute; top:300px; width:100%;}
+#home text2 {text-align: center; font-family:Arial, Helvetica, sans-serif; font-weight: bold; font-size: 6em; color: #ffffff; position:absolute; top:400px; width:100%;}
+
+#agenda tittle {font-family:Arial, Helvetica, sans-serif; font-weight: bold; font-size: 4em; color: #ffffff; position:absolute; top:50px; left:100px; width:100%;}
+#vendor tittle {font-family:Arial, Helvetica, sans-serif; font-weight: bold; font-size: 4em; color: #ffffff; position:absolute; top:50px; left:100px; width:100%;}
+#package tittle {font-family:Arial, Helvetica, sans-serif; font-weight: bold; font-size: 4em; color: #ffffff; position:absolute; top:50px; left:100px; width:100%;}
+.footer {position:absolute; left:410px; height:281;}
+.left{font-family:Arial, Helvetica, sans-serif;  font-size: 2em; color: #ffffff; position:absolute;margin-left:200px; width:100%;}
+.right{font-family:Arial, Helvetica, sans-serif;  font-size: 2em; color: #ffffff; position:absolute;margin-left:600px; width:100%;}
+
+
+
+
